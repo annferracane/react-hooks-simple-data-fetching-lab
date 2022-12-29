@@ -10,14 +10,10 @@ function App() {
         .catch(e => console.log(e));
     }, []);
 
-    if(!dog) {
-        return <p>Loading...</p>
-    }
-
 
 
     return (
-        <img src={ dog } alt="A Random Dog"/>
+        <img src="" alt="A Random Dog"/>
     )
     
 }

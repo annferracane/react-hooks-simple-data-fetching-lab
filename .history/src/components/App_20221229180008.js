@@ -11,7 +11,7 @@ function App() {
     }, []);
 
     if(!dog) {
-        return <p>Loading...</p>
+        return <p></p>
     }
 
 

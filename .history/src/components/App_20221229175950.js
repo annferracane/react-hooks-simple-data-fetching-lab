@@ -10,9 +10,7 @@ function App() {
         .catch(e => console.log(e));
     }, []);
 
-    if(!dog) {
-        return <p>Loading...</p>
-    }
+    if(!dog) {}
 
 
 

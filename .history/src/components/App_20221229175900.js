@@ -6,18 +6,14 @@ function App() {
     useEffect(() => {
         fetch("https://dog.ceo/api/breeds/image/random")
         .then(resp => resp.json())
-        .then(data => setDog(data.message))
+        .then(data => setDog(data.))
         .catch(e => console.log(e));
     }, []);
-
-    if(!dog) {
-        return <p>Loading...</p>
-    }
 
 
 
     return (
-        <img src={ dog } alt="A Random Dog"/>
+        <img src="" alt="A Random Dog"/>
     )
     
 }
